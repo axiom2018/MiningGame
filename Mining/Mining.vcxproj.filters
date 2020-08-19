@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{59b9942a-4650-4eb4-8f11-fff7c4df822d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{c83fefb1-656b-42d5-b7b4-678cc6b6eb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{4b56ef92-8ffe-49ba-a93d-77b433607d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge Design Pattern">
+      <UniqueIdentifier>{746864d1-e100-4fac-9e5c-05a416609f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge Design Pattern\Abstraction">
+      <UniqueIdentifier>{139e760d-17ad-44aa-843f-5683994182c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge Design Pattern\Refined Abstractions">
+      <UniqueIdentifier>{b94fa1ac-14a3-48c3-bdf5-b8fc7b04d00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge Design Pattern\Implementation">
+      <UniqueIdentifier>{c63409bf-4e28-446a-a926-fe306473eebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge Design Pattern\Concrete Implementations">
+      <UniqueIdentifier>{71681762-4773-4025-a6bf-0a0bfe03fced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{c61a4812-5dcc-4671-b430-9c4d742e8901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory\Factory Design Pattern">
+      <UniqueIdentifier>{2d51ae65-45e0-4d63-b779-6fa03c40648e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy System">
+      <UniqueIdentifier>{c7062d3e-1e8d-405e-bcd1-417406ed3c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy System\Enemy Factory Design Pattern">
+      <UniqueIdentifier>{d93bb446-6cb7-4add-bea4-6347c5ad3f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy System\Enemy Strategy Design Pattern">
+      <UniqueIdentifier>{125c8fc7-ec5f-4e2c-9f66-678dd7e88f87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GridGenerator.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFound.cpp">
+      <Filter>Bridge Design Pattern\Concrete Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Bridge Design Pattern\Concrete Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="MineAbs.cpp">
+      <Filter>Bridge Design Pattern\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Bridge Design Pattern\Refined Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="MineManager.cpp">
+      <Filter>Bridge Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Positions.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPack.cpp">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Enemy System</Filter>
+    </ClCompile>
+    <ClCompile Include="Viral.cpp">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Enemy System\Enemy Factory Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies.cpp">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Clicker.cpp">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathClaw.cpp">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Siren.cpp">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GridGenerator.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="MineImp.h">
+      <Filter>Bridge Design Pattern\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFound.h">
+      <Filter>Bridge Design Pattern\Concrete Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Bridge Design Pattern\Concrete Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="MineAbs.h">
+      <Filter>Bridge Design Pattern\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Bridge Design Pattern\Refined Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="MineManager.h">
+      <Filter>Bridge Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Positions.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPack.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="iItem.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTypes.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Enemy System</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Viral.h">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Enemy System\Enemy Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Clicker.h">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathClaw.h">
+      <Filter>Enemy System\Enemy Strategy Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Siren.h">
+      <Filter>Inventory\Factory Design Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
