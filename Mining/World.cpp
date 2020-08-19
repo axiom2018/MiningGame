@@ -120,6 +120,7 @@ void World::DigMine(const int& x, const int& y) const
 
 void World::Update()
 {
+	// As long as the game is still running, the player isn't dead and we haven't beat the last level, continue.
 	while (m_gameRunning && !m_pPlayer->IsDead() && !m_levelManager.IsGameOver())
 	{
 		if (Display())
